@@ -10,7 +10,7 @@ public class TemperatureConverter {
 	
 	// Kelvin <-> Celsius section
     public static double celsiusToKelvin(double value) {
-        return value + 273.15;
+        return value + 273.15 +1;
     }
     
     public static double kelvinToCelsius(double value) {
